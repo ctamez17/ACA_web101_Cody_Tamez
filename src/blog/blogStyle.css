@@ -1,6 +1,65 @@
 .main-container{
+    margin: 0 auto;
 
 }
+
+body{
+    margin: 0;
+    background: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300; /* Keep this? Check h6 below */
+}
+
+header{
+    font-size: small;
+    background: #004566;
+    text-align: right;
+    color: white;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+nav{
+    background: #F8F8F8;
+    text-align: right;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.logo{
+    height: 25px;
+    float: left;
+}
+
+article{
+    font-weight: 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    display: block;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+/*
+
+blue: #004566
+white: #F8F8F8
+gray: #EEEEEE
+
+
+
+
+
+
+
+
 
 header{
     background: rgb(34, 112, 126);
@@ -14,21 +73,11 @@ nav{
     background: white;
     height: 25px;
     width: 100%;
+    text-align: right;
 }
 
 main{
-    background: lightgray;
+    background: rgb(230, 230, 230);
     height: 100%;
     width: 100%;
-}
-/*
-nav
-{
-    border: 1px solid red;
-    height: 2px
-}
-h6
-{
-    font-weight: 1;
-    color: gray;
 }
