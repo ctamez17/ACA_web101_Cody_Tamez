@@ -1,0 +1,42 @@
+/*
+blue: rgb(113, 195, 233);
+green : rgb(166, 207, 112);
+red: rgb(255, 135, 98);
+yellow: rgb(255, 208, 119);
+*/
+
+.hline { 
+    width:100%; height:1px; background: #fff 
+}
+
+h1{
+    color: rgb(44, 44, 44)
+}
+
+body{
+    color: rgb(48, 48, 48);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header.headername h1{
+    text-align: center;
+    margin-left: 0px;
+
+}
+
+header.headerinfo{
+    text-align: center;
+    margin-left: 0px;
+}
+
+h3{
+    color: red;
+}
+
+.h3-education{
+    color: blue;
+}
+
+h3.h3-sub{
+    color: green;
+}
