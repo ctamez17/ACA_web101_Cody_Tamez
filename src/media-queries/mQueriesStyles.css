@@ -1,0 +1,62 @@
+/*
+ 1/23/20 --- 
+For homework:
+Create all .css properties outside of @media. As "min-width" increases, adjust accordingly inside of @media. 
+*/
+
+.container{
+    
+}
+
+#Spacepic{
+    height: 300px;
+    float: left;
+    padding: 10px;
+
+}
+
+h4{
+    float: initial;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+/* 
+ul{
+    border: 1px solid blue;
+    list-style-type: none;
+    margin: 0;
+    height: 500px;
+    width: 100%;
+    background: aqua;
+    padding: 0; 
+}
+
+li{
+    border: 1px solid yellow;
+    height: 100px;
+    width: 100px;
+    background: palevioletred;
+    display: block;
+}
+
+//Media Queries require re-writing elements
+@media (min-width: 576px){
+    body{
+        background: pink;
+    }
+
+    li{
+        display: inline-block;
+        background: blue;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+
+
+ */
