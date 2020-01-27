@@ -3,7 +3,9 @@
 For homework:
 Create all .css properties outside of @media. As "min-width" increases, adjust accordingly inside of @media. 
 */
-
+body{
+    /* background: rgb(1, 0, 20); */
+}
 .container{
     
 }
@@ -15,11 +17,72 @@ Create all .css properties outside of @media. As "min-width" increases, adjust a
 
 }
 
-h4{
+sTitle{
+    color: rgb(0, 12, 46);
+    font-size: 40px;
     float: initial;
-    padding: 5px;
-    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+sLinks{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+bodytitle{
+    font-size: 30px;
+}
+
+p{
+    float: left;
+    font-size: 20px;
+}
+
+/* Blue - Display for Phone */
+@media (min-width: 600px){
+    body{
+        background: rgb(179, 203, 255);
+    }
+    
+    sLinks{
+        display: inline-block;
+        background: rgb(86, 4, 218);
+        border-radius: 50%;
+        padding: 2%; 
+    }
+}
+
+/* Pink - Display for Tablet */
+@media (min-width: 760px){
+    body{
+        background: rgb(255, 153, 216);
+    }
+
+    sLinks{
+        display: inline-block;
+        background: rgb(255, 37, 182);
+        border-radius: 50%;
+        padding: 2%;   
+    }
+}
+
+/* Display if else */
+@media (min-width: 1000px){
+    body{
+        background: rgb(248, 238, 144);
+    }
+
+    sLinks{
+        display: inline-block;
+        background: rgb(251, 255, 0);
+        border-radius: 50%;
+        padding: 2%; 
+    }
+}
+
+
+
+
 
 
 /* 
