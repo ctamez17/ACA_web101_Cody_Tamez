@@ -6,16 +6,16 @@ main.main-container{
     display: grid;
     grid-template-columns: 10% repeat(0, 1fr) 10%;
     grid-template-rows: 80px 1fr 150px 50px 120px;
-    grid-gap
+    grid-gap: 0;
 }
 
 .bubble1{
     border: 1px solid black;
     background: red;
     color: rgb(255, 100, 100);
-    grid-column: 1/1;
+    grid-column: 1/6;
     grid-row: 1/1;
-    border-radius: 50%;
+    border-radius: 0%;
     text-align: center;
 
     /* display: grid;
@@ -29,7 +29,7 @@ main.main-container{
     color: rgb(255, 230, 149);
     grid-column: 2/2;
     grid-row: 2/2;
-    border-radius: 50%;
+    border-radius: 0%;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ main.main-container{
     color: rgb(152, 255, 138);
     grid-column: 4/4;
     grid-row: 4/4;
-    border-radius: 50%;
+    border-radius: 0%;
     text-align: center;
 }
 .bubble5{
@@ -58,5 +58,14 @@ main.main-container{
     grid-column: 5/5;
     grid-row: 5/5;
     border-radius: 50%;
+    text-align: center;
+}
+.bubble6{
+    border: 1px solid black;
+    background: rgb(209, 60, 255);
+    color: rgb(146, 30, 161);
+    grid-column: 1/1;
+    grid-row: 2/2;
+    border-radius: 0;
     text-align: center;
 }

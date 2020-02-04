@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+  }
+  .calculator-grid {
+    border: 1px solid rgb(42, 42, 42);
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 25% repeat(5, 1fr);
+    background: rgb(61, 61, 61);
+    color: rgb(219, 219, 219);
+  }
+  .calculator-grid .text-input {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    background-color: rgb(31, 31, 31);
+  }
+  .calculator-grid .calc-buttons {
+    border: 0px solid rgb(5, 5, 5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .calculator-grid .calc-buttons:nth-child(1){
+    border: 0px solid black;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: green;
+  }
+  .calculator-grid .calc-buttons:nth-child(2){
+    border: 0px solid black;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .calculator-grid .calc-buttons-equal {
+    border: 0px solid black;
+    grid-column: 4/-1;
+    grid-row: 5/-1;
+    background-color: rgb(54, 54, 54);
+  }
+  .calculator-grid .calc-buttons-plus {
+    border: 0px solid black;
+    grid-column: 4/-1;
+    grid-row: 3/4;
+  }
+  .calculator-grid .calc-buttons-minus {
+    border: 0px solid black;
+    grid-column: 4/-1;
+    grid-row: 4/5;
+  }
