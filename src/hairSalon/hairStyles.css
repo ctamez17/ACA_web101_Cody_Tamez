@@ -1,0 +1,47 @@
+.grid-container{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px 300px 300px 50px 50px 60px;
+}
+.grid-container nav{
+    border: 1px solid red;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    
+}
+.grid-container .Products{
+    border: 1px solid rgb(255, 166, 0);
+    grid-column: 1/4;
+    grid-row: 2/2;
+    
+}
+.grid-container .Featured{
+    border: 1px solid rgb(251, 255, 0);
+    grid-column: 1/4;
+    grid-row: 3/3;
+}
+
+.grid-container .Review{
+    border: 2px solid blue;
+    grid-column: 1/2;
+    grid-row: 4/6; 
+}
+.grid-container .Ads{
+    border: 2px solid rgb(0, 255, 42);
+    grid-column: 2/4;
+    grid-row: 4/5; 
+}
+
+.grid-container .Ads2{
+    border: 2px solid rgb(0, 255, 42);
+    grid-column: 3/4;
+    grid-row: 5/6; 
+}
+
+.grid-container footer{
+    border: 1px solid rgb(174, 0, 255);
+    grid-column: 1/4;
+    grid-row: 6/6;
+}
