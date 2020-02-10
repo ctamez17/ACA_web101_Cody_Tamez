@@ -15,24 +15,15 @@ body{
     grid-template-rows: 
     /*HEIGHT*/
     /*nav*/ 180px 
-    /*MainPic*/ 400px 
+    /*MainPic*/ 450px 
     /*FeaturedPic*/ 200px 
-    /*FeaturedInfo*/ 200px 
-    /*Review*/ 400px 
-    /*panelTop*/ 200px 
-    /*panelBottom*/ 200px; 
+    /*FeaturedInfo*/ 150px 
+    /*Review*/ 300px 
+    /*panelTop*/ 150px 
+    /*panelBottom*/ 150px; 
 }
 
 /*----------- NAVIGATION -----------*/
-
-.navlist{
-    margin: 0 0;
-    font-size: 20px;
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1;
-}
 
 
 .grid-container nav{
@@ -59,12 +50,9 @@ body{
 
 }
 
-ul {
-    display: inline-block;
+#navgrid {
     float: right;
-    margin: 0;
-    overflow: hidden;
-    padding: 74px 0 0;
+    margin: 90 150;
 }
 
 a {
@@ -90,7 +78,7 @@ a {
 }
 
 .slogan{
-    margin: 90 110;
+    margin: 130 80;
     float: right;
     font-size: 40;
     font-weight: bold;    
@@ -99,15 +87,17 @@ a {
 
 /* -----------FEATURED---------- */
 .grid-container .FeaturedPic{
-    margin: 5;
     display: flex;
     justify-content: space-between;
-    border: 5px solid #5FB3BD;
     border-radius: 5px;
     grid-column: 2/6;
     grid-row: 3/3;
+}
 
-    
+.FeaturedPic div{
+    border: 5px solid #5FB3BD;
+    border-radius: 5px;
+    filter: drop-shadow(0px 8px 10px #000000);
 }
 
 .grid-container .FeaturedInfo{
@@ -117,6 +107,7 @@ a {
     border-radius: 5px;
     grid-column: 2/6;
     grid-row: 4/4;
+    text-align: left;
 }
 
 .FeaturedInfo{
@@ -162,8 +153,9 @@ a {
 
 .grid-container .panelBottom{
     padding: 15px;
-    margin: 5;
+    margin: 0;
     display: inline-block;
+    font-weight: bold;
     border: 5px solid #5FB3BD;
     color: rgb(255, 255, 255);
     background: #519194;
@@ -172,8 +164,9 @@ a {
     grid-row: 6/7; 
 }
 
-.panelBottomPic{
-    ;
+.grid-container .panelPic{
+    float: left;
+    height: 100%;
 }
 
 /* -----------FOOTER----------- */
