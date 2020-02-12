@@ -166,12 +166,13 @@ a {
 
 .grid-container .panelPic{
     float: left;
-    height: 100%;
+    
 }
 
 /* -----------FOOTER----------- */
 
 .grid-container footer{
+    padding: 25;
     margin: 40 0;
     background: #519194;
     border-radius: 2px;
@@ -180,4 +181,24 @@ a {
     color: white;
     text-align: center;
     font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/* EXAMPLES FROM CLASS */
+
+examplemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+examplemain{
+    position: absolute;
 }
