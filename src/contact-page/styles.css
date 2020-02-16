@@ -1,0 +1,46 @@
+img{
+    margin: 0 0;
+    height: 25%;
+}
+body{
+    width: 25%;
+    padding: 0 200;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(3, 123, 192), rgb(124, 196, 255));
+    text-align: center;
+}
+
+/* --------- CONTACT HEAD --------- */
+    .contact_head{
+        padding: 0 20;
+        font-size: 60;
+        font-weight: normal;
+        letter-spacing: 2.5;
+        border-bottom: 2px solid white;
+    }
+    .cDesc{
+        padding: 15;
+        font-size: 20;
+        letter-spacing: 1.5;
+    }
+
+/* --------- FORM --------- */
+    .inputForm{
+        height: 300;
+        font-size: 24;
+        width: 100%;
+        border-bottom: 2px solid white;
+    }
+
+    .inputTitle{
+        
+    }
+
+/* --------- FOOTER --------- */
+    footer{
+        padding: 10;
+        font-size: 20;
+        color: white;
+        height: 25;
+    }
