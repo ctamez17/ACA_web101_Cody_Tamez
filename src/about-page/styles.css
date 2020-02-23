@@ -1,0 +1,83 @@
+img{
+    margin: 0 0;
+    height: 50px;
+    animation: cloudMove 2s linear infinite;
+}
+
+a{
+    padding: 10;
+    justify-content: center;
+    animation: cloudMove 2s linear infinite;
+    font-family: 'Montserrat';
+}
+
+a:active{
+    animation: cloudGiggle 0.2s linear 1;
+}
+
+p:active{
+    animation: cloudGiggle 0.2s linear 1;
+}
+
+body{
+    width: 25%;
+    padding: 0 200;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(3, 123, 192), rgb(124, 196, 255));
+    
+}
+
+/* --------- CONTACT HEAD --------- */
+    .contact_head{
+        padding: 0 20;
+        font-size: 60;
+        font-weight: normal;
+        letter-spacing: 2.5;
+        border-bottom: 2px solid white;
+    }
+    .cDesc{
+        padding: 15;
+        font-size: 20;
+        letter-spacing: 1.5;
+    }
+
+/* --------- FOOTER --------- */
+    footer{
+        padding: 10;
+        font-size: 20;
+        color: white;
+        height: 25;
+        font-family: 'Montserrat';
+    }
+
+
+    /* --------- Animations --------- */
+
+    @keyframes cloudMove{
+        0% {
+            transform: translateY(2px);
+        }
+        50% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(2px);
+        }
+    }
+
+    @keyframes cloudGiggle{
+        0% {
+            transform: translateY(5px);
+        }
+        33% {
+            transform: translateY(-2px);
+        }
+        66% {
+            transform: translateY(3px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+    
