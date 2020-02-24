@@ -1,0 +1,191 @@
+body{
+    background: rgb(22, 22, 22);
+    padding: 100 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.squares{
+    animation: aniMove 1s linear infinite;
+    transition: 1s;
+}
+
+.sOne:active, .sTwo:active, .sThree:active, .sFour:active, .sFive:active, .sSix:active, .sSeven:active, .sEight:active, .sNine:active, .sTen:active, .sEleven:active, .sTwelve:active{
+    transform: translateX(100%) rotate(90deg);
+}
+
+/* ------- Squares ------- */
+.sOne{
+    height: 50px;
+    width: 50px;
+    background: rgb(255, 0, 0);
+    transition: 0.2s;
+}
+.sOne:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 0, 0);
+}
+.sTwo{
+    height: 50px;
+    width: 50px;
+    background: rgb(255, 187, 0);
+    transition: .2s;
+}
+.sTwo:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 187, 0);
+}
+.sThree{
+    height: 50px;
+    width: 50px;
+    background: rgb(251, 255, 0);
+    transition: .2s;
+}
+.sThree:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(251, 255, 0);
+}
+.sFour{
+    height: 50px;
+    width: 50px;
+    background: rgb(33, 201, 0);
+    transition: .2s;
+}
+.sFour:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(33, 201, 0);
+}
+.sFive{
+    height: 50px;
+    width: 50px;
+    background: rgb(0, 132, 255);
+    transition: .2s;
+}
+.sFive:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(0, 132, 255);
+}
+.sSix{
+    height: 50px;
+    width: 50px;
+    background: rgb(47, 0, 255);
+    transition: .2s;
+}
+.sSix:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(47, 0, 255);
+}
+.sSeven{
+    height: 50px;
+    width: 50px;
+    background: rgb(132, 0, 255);
+    transition: .2s;
+}
+.sSeven:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(132, 0, 255);
+}
+.sEigth{
+    height: 50px;
+    width: 50px;
+    background: rgb(195, 0, 255);
+    transition: .2s;
+}
+.sEigth:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(195, 0, 255);
+}
+.sNine{
+    height: 50px;
+    width: 50px;
+    background: rgb(255, 0, 149);
+    transition: .2s;
+}
+.sNine:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 0, 149);
+}
+.sTen{
+    height: 50px;
+    width: 50px;
+    background: gray;
+    transition: .2s;
+}
+.sTen:hover{
+    height: 100px;
+    width: 100px;
+    background: gray;
+}
+.sEleven{
+    height: 50px;
+    width: 50px;
+    background: rgb(46, 46, 46);
+    transition: .2s;
+}
+.sEleven:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(46, 46, 46);
+}
+.sTwelve{
+    height: 50px;
+    width: 50px;
+    background: rgb(0, 0, 0);
+    transition: .2s;
+}
+.sTwelve:hover{
+    height: 100px;
+    width: 100px;
+    background: rgb(0, 0, 0);
+}
+
+
+
+/* --------- Animations --------- */
+
+
+@keyframes aniMove{
+    0% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+@keyframes aniGiggle{
+    0% {
+        transform: translateY(5px);
+    }
+    33% {
+        transform: translateY(-2px);
+    }
+    66% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes aniSlamRight{
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
