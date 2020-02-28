@@ -1,29 +1,35 @@
-// Player 1 clicks square
-// 'X' or 'O' is added to specified square
-
+//Initialize Variables
 var previousPlay = '';
 
-
+//Add Game Piece Function
 function addGamePiece(selectedElement)
 {
   console.log('selectedElement', selectedElement);
-  //turn 1 or turn 3
-  if((selectedElement.innerText == '' && previousPlay == '') || previousPlay == 'O')
-  {
-    //creating element
-    var xo = document.createElement('h1');
 
-    //add text to element
+  //Check first turn (X)
+  if(selectedElement.innerText == '' && previousPlay == '')
+  {
+    //Place turn 1 (X)
+    var xo = document.createElement('p');
     xo.innerText = 'X';
     previousPlay = 'X';
     selectedElement.appendChild(xo);
   }
-  //turn 2
+  //Check second turn (O)
   if(selectedElement.innerText == '' && previousPlay == 'X')
   {
-    var xo = document.createElement('h1');
-    xo.innerText = 'O'; 
+    //Place turn 2 (O)
+    var xo = document.createElement('p');
+    xo.innerText = 'O';
+    previousPlay = 'O';
     selectedElement.appendChild(xo);
   }
-
+  //Check next turn (Check and repeat)
+  if(selectedElement.innerText == '' && previousPlay == 'O')
+  {
+    var xo = document.createElement('p');
+    xo.innerText = 'X';
+    previousPlay = 'X';
+    selectedElement.appendChild(xo);
+  }
 }
