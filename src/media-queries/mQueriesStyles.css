@@ -3,13 +3,9 @@
 For homework:
 Create all .css properties outside of @media. As "min-width" increases, adjust accordingly inside of @media. 
 */
-<<<<<<< HEAD
 body{
     /* background: rgb(1, 0, 20); */
 }
-=======
-
->>>>>>> ct/media-queries
 .container{
     
 }
@@ -21,7 +17,6 @@ body{
 
 }
 
-<<<<<<< HEAD
 sTitle{
     color: rgb(0, 12, 46);
     font-size: 40px;
@@ -110,14 +105,6 @@ p{
 
 
 
-=======
-h4{
-    float: initial;
-    padding: 5px;
-    margin: 10px;
-}
-
->>>>>>> ct/media-queries
 
 /* 
 ul{
