@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.main-background{
+  display: flexx;
+
+}
+
+.main-container {
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Mono', monospace;
+  background: #424242;
+  color: ghostwhite;
+}
+/* ----------------------------- */
+/*------------- Nav -------------*/
+/* ----------------------------- */
+nav{
+  /* border:1px solid green; */
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+nav div.logo {
+  /* border:1px solid red; */
+  flex: 1;
+}
+nav ul {
+  /* border:1px solid red; */
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+/* ------------------------------ */
+/*------------- Main -------------*/
+/* ------------------------------ */
+
+main{
+  /* border:1px solid pink; */
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+
+/*------------- Video -------------*/
+
+.portfolio{
+  
+}
+
+.portfolio-video, iframe{
+  /* border-radius: 10px; */
+  /* position: absolute; */
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  
+/*------------- Portfolio -------------*/
+main .portfolio {
+  height: 300px;
+  /* border: 2px solid palevioletred; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .portfolio-img img {
+  height: 100%;
+  box-shadow: 1px 2px 5px 0px rgb(36, 36, 36);
+}
+main .portfolio-content {
+  flex-direction: column;
+}
+main .portfolio-content p:nth-of-type(1) {
+  
+  font-size: 55px;
+}
+main .portfolio-content p:nth-of-type(2) {
+  text-transform: uppercase;
+  letter-spacing: 3;
+}
+main .portfolio-content button {
+  font-size: 16px;
+  margin: 20px 0 0;
+  border: 2px solid rgba(255, 255, 255, 0.729);
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: ghostwhite;
+  /* box-shadow: 1px 0px 5px 0px rgb(36, 36, 36); */
+}
+
+main .portfolio-content button:hover {
+  box-shadow: 1px 2px 5px 0px rgb(36, 36, 36);
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+/*------------- Video -------------*/
+main .portfolio-video{
+  
+}
+
+
+/* --------------------------------- */
+/*------------- Footer -------------*/
+/* --------------------------------- */
+footer{
+  /* border:1px solid blue; */
+  background: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
