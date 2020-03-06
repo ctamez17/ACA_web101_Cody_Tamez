@@ -1,4 +1,4 @@
-    
+//Initialize Variables    
 var totCookies = 0;
 
 $(document).ready(function(){
